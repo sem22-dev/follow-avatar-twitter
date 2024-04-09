@@ -7,7 +7,7 @@ const session = require('express-session');
 const crypto = require('crypto');
 
 const app = express();
-const port = 5000;
+const port = 8000;
 
 // Use sessions
 const secretKey = crypto.randomBytes(32).toString('hex');
